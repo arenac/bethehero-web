@@ -48,7 +48,19 @@ export default createGlobalStyle`
     color: #333;
     border: 1px solid #dcdce6;
     border-radius: 4px;
-    padding 0 24px;
+    padding: 0 24px;
+  }
+
+  form textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 140px;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 4px;
+    padding: 16px 24px;
+    line-height: 42px;
   }
 
 `;
