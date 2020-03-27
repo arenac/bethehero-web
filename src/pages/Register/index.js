@@ -31,7 +31,7 @@ export default function Register() {
         </Section>
         <Form>
           <input placeholder="ONG name" />
-          <input tipe="email" placeholder="E-mail" />
+          <input type="email" placeholder="E-mail" />
           <input placeholder="WhatsApp" />
           <InputContainer>
             <input placeholder="City" />

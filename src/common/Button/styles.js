@@ -8,7 +8,7 @@ export const Btn = styled.button`
   border: 0;
   border-radius: 8px;
   color: #fff;
-  font-weigh: 700;
+  font-weight: 700;
   margin-top: 16px;
   display: inline-block;
   text-align: center;
