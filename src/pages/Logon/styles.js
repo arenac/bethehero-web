@@ -17,7 +17,7 @@ export const Container = styled.div`
   }
 `;
 
-export const LogoImage = styled.img``;
+export const LogoImage = styled.svg``;
 
 export const Form = styled.form`
   margin-top: 100px;
@@ -27,6 +27,10 @@ export const Form = styled.form`
     margin-bottom: 32px;
   }
 
+  input {
+    border-radius: 8px;
+  }
+
   a {
     display: flex;
     align-items: center;
@@ -34,7 +38,7 @@ export const Form = styled.form`
     color: #41414d;
     font-size: 18px;
     text-decoration: none;
-    font-wight: 700;
+    font-weight: 500;
     transition: opacity 0.2s;
 
     &:hover {
