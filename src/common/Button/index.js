@@ -14,13 +14,14 @@ function Button({ text, handleClick, icon, type }) {
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
-  handleClick: PropTypes.func.isRequired,
+  handleClick: PropTypes.func,
   icon: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
   type: PropTypes.string,
 };
 
 Button.defaultProps = {
   type: 'secondary',
+  handleClick: () => {},
   icon: <></>,
 };
 
