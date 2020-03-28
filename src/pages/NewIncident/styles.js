@@ -70,11 +70,3 @@ export const Form = styled.form`
     margin-top: 10px;
   }
 `;
-
-export const InputContainer = styled.div`
-  display: flex;
-
-  input + input {
-    margin-left: 10px;
-  }
-`;

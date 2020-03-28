@@ -2,14 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 
-import {
-  Container,
-  Content,
-  Section,
-  Logo,
-  Form,
-  InputContainer,
-} from './styles';
+import { Container, Content, Section, Logo, Form } from './styles';
 
 import Button from '../../common/Button';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiPower, FiTrash2 } from 'react-icons/fi';
+import { FiPower } from 'react-icons/fi';
 
 import { Container, Header, Button, Title, List } from './styles';
 
