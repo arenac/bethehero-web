@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 
 import api from '../../services/api';
@@ -23,6 +23,7 @@ export default function Register() {
   const [whatsapp, setWhatsapp] = useState('123456');
   const [city, setCity] = useState('Here');
   const [country, setCountry] = useState('LA');
+  const history = useHistory();
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -40,6 +41,8 @@ export default function Register() {
     const response = await api.post('/ongs', data);
 
     alert(response);
+
+    history.push('/');
   }
 
   return (
