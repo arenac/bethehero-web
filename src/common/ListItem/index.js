@@ -14,7 +14,12 @@ function ListItem({ caseName, description, value, handleClick }) {
       <p>{description}</p>
 
       <strong>Value</strong>
-      <p>{`$${value}`}</p>
+      <p>
+        {Intl.NumberFormat('en-US', {
+          style: 'currency',
+          currency: 'USD',
+        }).format(value)}
+      </p>
 
       <button type="button" onClick={handleClick}>
         <FiTrash2 size={20} color="#a8a8b3" />
